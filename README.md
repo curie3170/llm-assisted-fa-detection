@@ -2,7 +2,6 @@
 
 > Detect and annotate Full Adder (FA) logic in Verilog circuits using AIG-level structural analysis and large language models (LLMs).
 
----
 
 ## 📌 Overview
 
@@ -15,8 +14,6 @@ This project implements an automated pipeline for detecting Full Adder (FA) logi
 
 The result is a fully annotated Verilog design with structural FA logic clearly labeled, and resource usage visibly improved.
 
----
----
 
 ## 🚀 How It Works
 
@@ -35,7 +32,6 @@ The result is a fully annotated Verilog design with structural FA logic clearly 
 5. **Comparison & Optimization**  
    Synthesize both original and modified versions, compare cell counts and logic efficiency.
 
----
 
 ## 📊 Example Result
 
@@ -46,7 +42,6 @@ The result is a fully annotated Verilog design with structural FA logic clearly 
 | OR Gates  | 2        | 1 ↓      |
 | XOR Gates | 2        | 2        |
 
----
 
 ## 🛠️ Requirements
 
@@ -54,7 +49,6 @@ The result is a fully annotated Verilog design with structural FA logic clearly 
 - [Yosys](https://github.com/YosysHQ/yosys)
 - OpenAI API access (for GPT-4.1)
 
----
 
 ## 💡 Future Work
 
@@ -62,7 +56,6 @@ The result is a fully annotated Verilog design with structural FA logic clearly 
 - Support other arithmetic primitives (HA, CLA)
 - Integrate Netlist-to-Verilog rewriting
 
----
 
 ## 📜 License
 Credits to Yosys and OpenAI for core technologies.

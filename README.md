@@ -1,4 +1,4 @@
-# 🧠 llm-verilog-fa-annotator
+# 🧠 llm-assisted-fa-detection
 
 > Detect and annotate Full Adder (FA) logic in Verilog circuits using AIG-level structural analysis and large language models (LLMs).
 
